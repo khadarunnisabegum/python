@@ -1,0 +1,14 @@
+num1 = int(input(" Please Enter the First Value Number 1: "))
+num2 = int(input(" Please Enter the Second Value Number 2: "))
+add = num1 + num2
+sub = num1 - num2
+multi = num1 * num2
+div = num1 / num2
+mod = num1 % num2
+expo = num1 ** num2
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print(num1%num2)
+print(num1**num2)
