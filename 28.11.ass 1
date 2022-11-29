@@ -1,0 +1,5 @@
+pin=int(input("enter pin number"))
+if pin>=1000:
+    print("continue the transactions")
+else:
+    print("incorrect pin number.please try again!")
