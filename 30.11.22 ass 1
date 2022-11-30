@@ -1,0 +1,31 @@
+dll=50
+sss=80
+rrr=100
+pul=70
+spi=30
+cphno=int(input('Enter Customer phone number:'))
+cname=input('Enter Customer name:')
+caddr=input('Enter customer address:')
+dal=int(input('How many packets?'))
+sugar=int(input('How many packets?!'))
+rice=int(input('How many packets'))
+pulses=int(input('How many packets'))
+spices=int(input('How many packets'))
+bill=(dal*dll)+(sugar*sss)+(rice*rrr)+(pulses*pul)+(spices*spi)
+if bill>3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+print('bill without tax:',bill)
+print('tax:',tax)
+tax=tax+bill
+print('Customer phonenumber:',cphno)
+print('Customer Name:',cname)
+print('Bill amount:',bill)
+print('tax amount:',tax)
